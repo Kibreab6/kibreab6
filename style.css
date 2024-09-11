@@ -1,0 +1,94 @@
+html{
+    color: rgb(15, 70, 104);
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sacramento", cursive;
+}
+.top-container {
+    width: 100%;
+    padding-top: 10px;
+    height: 297px;
+    background-color: hsl(147, 73%, 88%);
+    text-align: center;
+}
+.picture1{
+    text-align: center;
+    padding-left: 60px;
+}
+.title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.kibreab {
+    border-radius: 50%;
+}
+.myskills{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 40px;
+    font-size: small;
+    align-self: center;
+    gap: 35px;
+}
+.first,
+.second {
+    padding-left: 120px;;
+}
+.text{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.texts{
+    padding-right: 50px;
+}
+.container{
+    text-align: center;
+    font-size: small;
+    margin-top: 60px;
+}
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: hsl(147, 73%, 88%);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:px;
+}
+.footer a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(15, 70, 104);
+}
+.footer a:hover{
+    color:#fff;
+}
+.custom-btn{
+    background-color: hsl(147, 73%, 88%);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: rgb(15, 70, 104);
+}
+.custom-btn:hover {
+    background-color: #218838; /* Change background on hover */
+    color: #fff; /* Ensure text is readable on hover */
+}
+.footer p{
+    text-align: center;
+    padding-top: 80px;
+}
